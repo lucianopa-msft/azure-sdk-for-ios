@@ -23,9 +23,6 @@
 		882F28D425A632CA009689E3 /* CommunicationTokenRefreshOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882F28D325A632CA009689E3 /* CommunicationTokenRefreshOptions.swift */; };
 		8856CEAC253A376D00044559 /* CommunicationAccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856CEAB253A376D00044559 /* CommunicationAccessToken.swift */; };
 		88F6458928B3EFE200415333 /* CreateCommunicationIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6458828B3EFE200415333 /* CreateCommunicationIdentifier.swift */; };
-		C1ABE73016C6539A7175199B /* Pods_AzureCommunicationCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D532B0F56C67A1E89941A6D6 /* Pods_AzureCommunicationCommon.framework */; };
-		CE28995B2826981CCEAD9A96 /* Pods_AzureCommunicationCommonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65876B73FED970EE674191B8 /* Pods_AzureCommunicationCommonTests.framework */; };
-		D112634825B7969B00F437C6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		D1A42CF825CCA1C100408C0F /* CommunicationTokenCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A42CF725CCA1C100408C0F /* CommunicationTokenCredential.swift */; };
 		F1540EBD25BF893C0056B087 /* CommunicationCloudEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1540EBC25BF893C0056B087 /* CommunicationCloudEnvironment.swift */; };
 		F1540EC125BFD6910056B087 /* CommunicationIdentifierTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1540EC025BFD6910056B087 /* CommunicationIdentifierTest.swift */; };
@@ -48,7 +45,6 @@
 		0A3A5EB82316DB1E00473FDA /* AzureCommunicationCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureCommunicationCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3A5EC12316DB1E00473FDA /* AzureCommunicationCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureCommunicationCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3A5EC82316DB1E00473FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A3A5ED62316DB8F00473FDA /* AzureCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AzureCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5DCA312620F96600A9ABF3 /* AzureCommunicationCommon.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AzureCommunicationCommon.podspec.json; sourceTree = "<group>"; };
 		0A5DCA332620F99B00A9ABF3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		0A5DCA382620FC2500A9ABF3 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -67,7 +63,6 @@
 		1DE4DB7824C1063E00631921 /* ThreadSafeRefreshableAccessTokenCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeRefreshableAccessTokenCache.swift; sourceTree = "<group>"; };
 		23175F36E34608688A716D53 /* Pods-AzureCommunicationCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureCommunicationCommon.release.xcconfig"; path = "Target Support Files/Pods-AzureCommunicationCommon/Pods-AzureCommunicationCommon.release.xcconfig"; sourceTree = "<group>"; };
 		502AF53063897B96B7E24DD5 /* Pods-AzureCommunicationCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureCommunicationCommonTests.debug.xcconfig"; path = "Target Support Files/Pods-AzureCommunicationCommonTests/Pods-AzureCommunicationCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		65876B73FED970EE674191B8 /* Pods_AzureCommunicationCommonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureCommunicationCommonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB0952825BF895B0026A2A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		882F28D325A632CA009689E3 /* CommunicationTokenRefreshOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationTokenRefreshOptions.swift; sourceTree = "<group>"; };
 		8856CEAB253A376D00044559 /* CommunicationAccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationAccessToken.swift; sourceTree = "<group>"; };
@@ -76,7 +71,6 @@
 		88F6458828B3EFE200415333 /* CreateCommunicationIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCommunicationIdentifier.swift; sourceTree = "<group>"; };
 		CC958AD71D0F5F2AAAF8CD78 /* Pods-AzureCommunicationCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureCommunicationCommon.debug.xcconfig"; path = "Target Support Files/Pods-AzureCommunicationCommon/Pods-AzureCommunicationCommon.debug.xcconfig"; sourceTree = "<group>"; };
 		D1A42CF725CCA1C100408C0F /* CommunicationTokenCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationTokenCredential.swift; sourceTree = "<group>"; };
-		D532B0F56C67A1E89941A6D6 /* Pods_AzureCommunicationCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureCommunicationCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB30AC02CED3AB47AD4F55A7 /* Pods-AzureCommunicationCommonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureCommunicationCommonTests.release.xcconfig"; path = "Target Support Files/Pods-AzureCommunicationCommonTests/Pods-AzureCommunicationCommonTests.release.xcconfig"; sourceTree = "<group>"; };
 		F1540EBC25BF893C0056B087 /* CommunicationCloudEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationCloudEnvironment.swift; sourceTree = "<group>"; };
 		F1540EC025BFD6910056B087 /* CommunicationIdentifierTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationIdentifierTest.swift; sourceTree = "<group>"; };
@@ -90,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1ABE73016C6539A7175199B /* Pods_AzureCommunicationCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +92,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3A5EC22316DB1E00473FDA /* AzureCommunicationCommon.framework in Frameworks */,
-				CE28995B2826981CCEAD9A96 /* Pods_AzureCommunicationCommonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +152,6 @@
 		0A3A5ED52316DB5700473FDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A3A5ED62316DB8F00473FDA /* AzureCore.framework */,
-				D532B0F56C67A1E89941A6D6 /* Pods_AzureCommunicationCommon.framework */,
-				65876B73FED970EE674191B8 /* Pods_AzureCommunicationCommonTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -578,9 +567,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.azure.communication.AzureCommunicationCommon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -610,8 +601,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.azure.communication.AzureCommunicationCommon;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};

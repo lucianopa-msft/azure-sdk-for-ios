@@ -13,7 +13,8 @@
   },
   "documentation_url": "https://azure.github.io/azure-sdk-for-ios/AzureCommunicationCommon/index.html",
   "platforms": {
-    "ios": "12.0"
+    "ios": "12.0",
+    "visionos": "1.0"
   },
   "swift_versions": "5.0",
   "source": {
